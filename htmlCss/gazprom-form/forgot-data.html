@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Проблема с входом - Газпромбанк Бизнес-Онлайн</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container__header">
+      <ul class="header__list">
+        <li class="header__item">
+          <a class="start" href="login.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="202" height="49">
+            <use xlink:href="images/sprite.svg#gazprom-icon"></use>
+          </svg>
+          </a>
+        </li>
+        <li class="header__item--right">
+          <div class="header__column">
+            <span class="header__text">Топ-3 лучших банков для корпоративных клиентов</span>
+            <span class="header__text--trans">По версии Markswebb</span>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56">
+            <use xlink:href="images/sprite.svg#markswebb-icon"></use>
+          </svg>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="form-recovery">
+        <div class="form-recovery__back">
+          <a class="form-recovery__back-link" href="login.html">
+            <svg class="form-recovery__back-icon" width="20" height="20" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#back-icon"></use>
+            </svg>
+          </a>
+        </div>
+        <ul class="form-recovery__list">
+          <li class="form-recovery__item">
+            <h2 class="form-recovery__title">Не можете войти?</h2>
+          </li>
+          <li class="form-recovery__item form-recovery__item--radio">
+            <form class="form-recovery__form" action="#" method="POST">
+              <div class="form-recovery__radio">
+                <input class="form-recovery__radio-field" type="radio" name="forgot" value="NeWpass" id="newpass" />
+                <label class="form-recovery__radio-label" for="newpass">
+                  Установить новый пароль
+                </label>
+              </div>
+              <div class="form-recovery__radio">
+                <input class="form-recovery__radio-field" type="radio" name="forgot" value="restore" id="restore" />
+                <label class="form-recovery__radio-label" for="restore">
+                  Восстановить логин
+                </label>
+              </div>
+            </form>
+          </li>
+          <li class="form-recovery__item" >
+            <button class="button" type="submit" name="forgot" disabled>
+              Продолжить
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a class="footer__item-link" href="tel:+88001001189">
+            <svg class="footer__icon" width="16" height="16" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#phone-icon"></use>
+            </svg>
+            <span class="footer__text">8 800 100 11 89</span>
+          </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__item-link" href="#">
+            <svg class="footer__icon" width="18" height="15" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#telegram-icon"></use>
+            </svg>
+            <span class="footer__text">Написать в Telegram</span>
+          </a>
+        </li>
+        <li class="footer__item">
+          <span class="footer__text--xs">&copy;&nbsp;2024 Банк ГПБ (АО) Генеральная лицензия Банка России
+            &#8470;&nbsp;354</span>
+        </li>
+        <li class="footer__item">
+          <span class="footer__text--xs">Политика обработки персональных данных</span>
+        </li>
+        <li class="footer__item">
+          <button class="footer__btn">
+            <span class="footer__btn-text">Светлая тема</span>
+            <svg class="footer__icon" width="16" height="16" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#dark-icon"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,231 @@
+.service {
+    padding: clamp(120px, 8vw, 160px) clamp(140px, 8vw, 190px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service__title {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0 0 25px;
+    text-align: center;
+}
+
+.service__description {
+    text-align: center;
+    font-size: 16px;
+    line-height: 160%;
+    font-weight: 400;
+    letter-spacing: 0%;
+    color: #707273;
+    margin: 0 0 84px;
+    max-width: 597px;
+}
+
+.service__list {
+    padding: 0;
+    margin: 0 0 203px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.service__item {
+    padding: 30px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 262px;
+    width: 263px;
+}
+
+.service__item:hover {
+    background-color: #D1F4F9;
+    outline: 1px solid #A3E0E8;
+    border-radius: 8px;
+}
+
+.service__item-circle {
+    background-color: #35AFBF;
+    border-radius: 50%;
+    width: 83px;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+
+}
+
+.service__item-subtitle {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #252626;
+    margin: 0 0 10px;
+    text-align: center;
+    width: 206px;
+}
+
+.service__item-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #707273;
+    text-align: center;
+    margin: 0;
+}
+
+.service__specialist {
+    width: 100%;
+}
+
+.service__specialist-title {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #252626;
+    margin: 0 0 10px;
+}
+
+.service__specialist-subtitle {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #707273;
+    margin: 0 0 20px;
+}
+
+.service__specialist-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #707273;
+    margin: 0 0 35px;
+    max-width: 450px;
+}
+
+.service__specialist-list {
+    display: flex;
+    flex-direction: row;
+    gap: 340px;
+    list-style-type: none;
+    margin: 0 0 198px;
+    padding: 0;
+    overflow: visible;
+}
+
+.service__specialist-img {
+    border-radius: 50%;
+    width: 195px;
+    height: 195px;
+    object-fit: cover;
+    object-position: 50% 1%;
+}
+
+.service__specialist-item--img {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.service__specialist-item {
+    position: relative;
+    overflow: visible;
+}
+
+.service__specialist-item-elipse1 {
+    position: absolute;
+    top: -25px;
+    width: 247px;
+    height: 247px;
+    z-index: 0;
+    overflow: visible;
+}
+
+.service__specialist-item-elipse2 {
+    position: absolute;
+    top: -58px;
+    left: 1px;
+    width: 313px;
+    height: 313px;
+    z-index: 0;
+    overflow: visible;
+}
+
+.service__specialist-item-elipse3 {
+    position: absolute;
+    top: -98px;
+    left: 1px;
+    width: 392px;
+    height: 392px;
+    z-index: 0;
+    overflow: visible;
+}
+
+.service__specialist-item-people1 {
+    position: absolute;
+    top: -70px;
+    left: -60px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.service__specialist-item-people2 {
+    position: absolute;
+    top: -70px;
+    left: 210px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.service__specialist-item-people3 {
+    position: absolute;
+    top: 160px;
+    left: -100px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.service__specialist-item-people4 {
+    position: absolute;
+    top: 160px;
+    left: 240px;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.service__specialist-item-people5 {
+    position: absolute;
+    top: 260px;
+    left: 70px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 30% 10%;
+}

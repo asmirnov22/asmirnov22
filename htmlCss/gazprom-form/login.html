@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Вход - Газпромбанк Бизнес-Онлайн</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container__header">
+      <ul class="header__list">
+        <li class="header__item">
+          <a class="start" href="login.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="202" height="49">
+              <use xlink:href="images/sprite.svg#gazprom-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header__item--right">
+          <div class="header__column">
+            <span class="header__text">Топ-3 лучших банков для корпоративных клиентов</span>
+            <span class="header__text--trans">По версии Markswebb</span>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56">
+            <use xlink:href="images/sprite.svg#markswebb-icon"></use>
+          </svg>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="form">
+        <ul class="child__list">
+          <li class="child__item">
+            <h2 class="login__title">Вход в ГПБ Бизнес-онлайн</h2>
+            <div class="login__form">
+              <div class="custom__input" action="#" method="POST">
+                <input class="login__form-field" type="text" name="login" id="login" placeholder="">
+                <label class="login__form-label" for="login">
+                  Логин
+                </label>
+                <svg class="login__form__label-icon" width="24" height="24" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#login-icon"></use>
+                </svg>
+              </div>
+              <div class="custom__input" action="#" method="POST">
+                <input class="login__form-field" type="password" name="password" id="password" placeholder="">
+                <label class="login__form-label" for="password">
+                  Пароль</label>
+                <svg class="login__form__label-icon" width="24" height="24" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#password-icon"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="button__login">
+              <button class="button">Войти</button>
+              <a class="login__link-forget" href="forgot-data.html">Забыли логин или пароль?</a>
+            </div>
+          </li>
+          <li class="child__item">
+            <div class="login__bottom">
+              <a class="login__link-platform" href="#">
+                <span class="login__link-platform__text">Войти с помощью:</span>
+                <svg class="login__link-platform-image" width="32" height="32" aria-hidden="true">
+                  <use xlink:href="images/sprite.svg#logo-gpb"></use>
+                </svg>
+                <span class="login__link-platform__text">ЭТП ГПБ</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <a class="login-registration__link" href="registration.html">Зарегистрироваться</a>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a class="footer__item-link" href="tel:+88001001189">
+            <svg class="footer__icon" width="16" height="16" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#phone-icon"></use>
+            </svg>
+            <span class="footer__text">8 800 100 11 89</span>
+          </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__item-link" href="#">
+            <svg class="footer__icon" width="18" height="15" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#telegram-icon"></use>
+            </svg>
+            <span class="footer__text">Написать в Telegram</span>
+          </a>
+        </li>
+        <li class="footer__item">
+          <span class="footer__text--xs">&copy;&nbsp;2024 Банк ГПБ (АО) Генеральная лицензия Банка России
+            &#8470;&nbsp;354</span>
+        </li>
+        <li class="footer__item">
+          <span class="footer__text--xs">Политика обработки персональных данных</span>
+        </li>
+        <li class="footer__item">
+          <button class="footer__btn">
+            <span class="footer__btn-text">Светлая тема</span>
+            <svg class="footer__icon" width="16" height="16" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#dark-icon"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+
+</html>

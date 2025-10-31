@@ -1,0 +1,26 @@
+.tours {
+  margin: 0 0 60px 0;
+}
+.tours__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  .tours__item {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    min-width: 380px;
+  }
+  
+  .tours__item--flat {
+    grid-column: span 2;
+  }
+  

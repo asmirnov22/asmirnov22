@@ -1,0 +1,14 @@
+.container {
+  max-width: 1510px;
+  margin: 0 auto;
+  padding: 0 16px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.container--footer {
+  max-width: 1510px;
+  margin: 0 auto;
+  padding: 0 16px;
+  background: #2C353E;
+}

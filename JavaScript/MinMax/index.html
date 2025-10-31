@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Поиск минимального и максимального числа</h1>
+    <p class="all-elements"></p>
+    <button class="min" onclick="findMin()">Найти минимальное число</button>
+    <button class="max" onclick="findMax()">Найти максимальное число</button>
+    <p>Минимальное число: <span class="minNumber"></span></p>
+    <p>Максимальное число: <span class="maxNumber"></span></p>
+
+
+    <script>
+        const numbers = [126, 59, -90, 41, 23]
+        const allEl = document.querySelector('.all-elements')
+        const minNumberEl = document.querySelector('.minNumber')
+        const maxNumberEl = document.querySelector('.maxNumber')
+
+        allEl.textContent = numbers
+
+        function findMin() {
+            let min = numbers[0];
+            for (let i = 0; i < numbers.length; i++) {
+                if (numbers[i] < min) {
+                    min = numbers[i];
+
+                }
+            }
+            minNumberEl.textContent = min;
+        }
+
+        function findMax() {
+            let max = numbers[0];
+            for (let i = 0; i < numbers.length; i++) {
+                if (numbers[i] > max) {
+                    max = numbers[i];
+                    maxNumberEl.textContent = max;
+                }
+            }
+            maxNumberEl.textContent = max;
+        }
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

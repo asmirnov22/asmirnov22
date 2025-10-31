@@ -1,0 +1,12 @@
+.container__header {
+  min-width: 1440px;
+  padding: 0 28px;
+  overflow: hidden;
+}
+
+.container {
+  min-width: 1440px;
+  margin: 0 auto;
+  padding: 0 28px;
+  overflow: hidden;
+}

@@ -1,0 +1,147 @@
+.memo-sidebar {
+    margin: 0 0 80px;
+}
+
+.memo-sidebar__block {
+    display: grid;
+    grid-template-columns: 650px 290px;
+    grid-template-rows: auto;
+    list-style-type: none;
+    margin: 0 0 59px;
+    padding: 0;
+    gap: 17px 30px;
+    justify-content: space-between;
+}
+
+.memo-sidebar__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.memo-sidebar__block-link {
+ list-style-type: none;
+}
+
+.memo-sidebar__list-link {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.memo-sidebar__container-xxl {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 22px;
+    border-color: #ffffff;
+    padding: 0;
+}
+
+.memo-sidebar__title{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 0 0 20px;
+}
+
+.memo-sidebar__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 0 22px;
+}
+
+.memo-sidebar__text-bold  {
+    display: block;
+    font-weight: 600;
+    margin: 0 ;
+    padding: 0;
+}
+
+.memo-program__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 0 0 0 15px;
+    list-style-type: disc;
+}
+
+.memo-program__item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.memo-sidebar__container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(225, 225, 228, 1);
+    border-radius: 20px;
+    padding: 24px;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.memo-sidebar__subtitle {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.memo-sidebar__subtitle-xxl {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+.memo-sidebar__link {
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.memo-sidebar__container--link-block {
+    padding: 0;
+    border-radius: 60px;
+    border: 1px solid rgba(158, 95, 196, 1)
+}
+
+.memo-sidebar__block__link {
+    border: 1px solid #9E5FC4;
+    border-radius: 60px;
+    padding: 14px 25px;
+    color: #9E5FC4;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.memo-sidebar__container--img-block {
+    border: 0;
+    padding: 0;
+    border: 20px;
+    overflow: hidden;
+}
+
+.memo-sidebar__container--list {
+    padding: 0;
+}
+
+.memo-sidebar__right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.memo-sidebar__img {
+    border-radius: 20px;
+}

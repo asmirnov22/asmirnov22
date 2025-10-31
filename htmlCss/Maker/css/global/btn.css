@@ -1,0 +1,36 @@
+.classic {
+    padding: 15px 30px;
+    display: block;
+    background-color: #35AFBF;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 150%;
+    justify-self: start;
+    max-width: 190px;
+    cursor: pointer;
+}
+
+.learn-more {
+    width: 149px;
+    height: 49px;
+    border: 1px solid rgba(53, 175, 191, 0.2);
+    background-color: #ffffff;
+    color: #35AFBF;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.subscribe {
+    max-width: 138px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 15px 20px;
+    background: none;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}

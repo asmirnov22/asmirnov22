@@ -1,0 +1,18 @@
+@import "global/fonts.css";
+@import "global/reboot.css";
+@import "global/btn.css";
+@import "global/container.css";
+
+
+
+
+
+
+@import "blocks/header.css";
+@import "blocks/nav.css";
+@import "blocks/service.css";
+@import "blocks/video.css";
+@import "blocks/function.css";
+@import "blocks/review.css";
+@import "blocks/start.css";
+@import "blocks/footer.css";

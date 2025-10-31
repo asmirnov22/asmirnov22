@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Регистрация - Газпромбанк Бизнес-Онлайн</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container__header">
+      <ul class="header__list">
+        <li class="header__item">
+          <a class="start" href="login.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="202" height="49">
+              <use xlink:href="images/sprite.svg#gazprom-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header__item--right">
+          <div class="header__column">
+            <span class="header__text">Топ-3 лучших банков для корпоративных клиентов</span>
+            <span class="header__text--trans">По версии Markswebb</span>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56">
+            <use xlink:href="images/sprite.svg#markswebb-icon"></use>
+          </svg>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="registration">
+        <div class="registration-form">
+          <h2 class="registration-form__title">Регистрация</h2>
+          <ul class="registration-form__list">
+            <li class="registration-form__item--familly">
+              <div class="custom__input" action="#" method="POST">
+                <input class="login__form-field" type="text" name="login" id="familly">
+                <label class="login__form-label" for="familly">
+                  Фамилия
+                </label>
+              </div>
+            </li>
+            <li class="registration-form__item--name">
+              <div class="custom__input" action="#" method="POST">
+                <input class="login__form-field" type="text" name="login" id="name">
+                <label class="login__form-label" for="name">
+                  Имя
+                </label>
+              </div>
+            </li>
+            <li class="registration-form__item--lastname">
+              <div class="custom__input" action="#" method="POST">
+                <input class="login__form-field" type="text" name="login" id="lastname">
+                <label class="login__form-label" for="lastname">
+                  Отчество
+                </label>
+              </div>
+            </li>
+            <li class="registration-form__item--login">
+              <div class="custom__input" action="#" method="POST">
+                <input class="login__form-field" type="text" name="login" id="login">
+                <label class="login__form-label" for="login">
+                  Логин
+                </label>
+              </div>
+            </li>
+            <li class="registration-form__item--pass">
+              <div class="custom__input" action="#" method="POST">
+                <input class="login__form-field" type="text" name="login" id="password">
+                <label class="login__form-label" for="password">
+                  Пароль
+                </label>
+              </div>
+            </li>
+            <li class="registration-form__item--numb">
+              <div class="custom__input" action="#" method="POST">
+                <input class="login__form-field" type="text" name="login" id="number" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+                <label class="login__form-label" for="number">
+                  Телефон
+                </label>
+              </div>
+            </li>
+            <li class="registration-form__item--mail">
+              <div class="custom__input" action="#" method="POST">
+                <input class="login__form-field" type="text" name="login" id="mail">
+                <label class="login__form-label" for="mail">
+                  Email
+                </label>
+              </div>
+            </li>
+            <li class="registration-form__item--capctha">
+              <span class="registration-form__item--capctha-text">Код с картинки</span>
+              <div class="custom__input" action="#" method="POST">
+                <input class="login__form-field" type="text" name="login">
+                <label class="login__form-label">
+                </label>
+              </div>
+
+            </li>
+            <li class="registration-form__item--code">
+              <button class="registration-form__item-refresh" aria-label="Обновить">
+                <svg class="icon" width="16" height="16" fill="#8F939F">
+                  <use xlink:href="/images/sprite.svg#refresh-icon"></use>
+                </svg>
+              </button>
+              <img class="registration-form__item-img" src="images/capctha.png" alt="">
+            </li>
+            <li class="registration-form__item--button">
+              <button class="button">Продолжить</button>
+            </li>
+            <li class="registration-form__item--radio">
+              <div class="form-recovery__radio">
+                <label class="form-recovery__radio-label" for="restore">
+                  <input class="form-recovery__radio-custom" type="radio" name="restore" id="restore">
+                  <span class="form-recovery__radio-text">
+                    Согласен на обработку и передачу
+                    <a class="form-recovery__radio-label-link" href="">персональных данных</a>
+                  </span>
+                </label>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a class="footer__item-link" href="tel:+88001001189">
+            <svg class="footer__icon" width="16" height="16" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#phone-icon"></use>
+            </svg>
+            <span class="footer__text">8 800 100 11 89</span>
+          </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__item-link" href="#">
+            <svg class="footer__icon" width="18" height="15" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#telegram-icon"></use>
+            </svg>
+            <span class="footer__text">Написать в Telegram</span>
+          </a>
+        </li>
+        <li class="footer__item">
+          <span class="footer__text--xs">&copy;&nbsp;2024 Банк ГПБ (АО) Генеральная лицензия Банка России
+            &#8470;&nbsp;354</span>
+        </li>
+        <li class="footer__item">
+          <span class="footer__text--xs">Политика обработки персональных данных</span>
+        </li>
+        <li class="footer__item">
+          <button class="footer__btn">
+            <span class="footer__btn-text">Светлая тема</span>
+            <svg class="footer__icon" width="16" height="16" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#dark-icon"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>

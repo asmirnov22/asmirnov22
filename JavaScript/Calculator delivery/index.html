@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form {
+            display: flex;
+            flex-direction: column;
+            max-width: 150px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            max-width: 800px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ccc;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Калькулятор стоимости доставки</h1>
+    <form class="form" action="#">
+        <label for="name">Название товара:</label>
+        <input type="text" id="name" required>
+
+        <label for="weight">Вес товара(кг):</label>
+        <input type="number" id="weight" required>
+
+        <label for="delivery">Расстояние доставки(км):</label>
+        <input type="number" id="delivery" required>
+
+        <button type="submit">Добавить товар</button>
+    </form>
+    <div class="text">
+
+    </div>
+    <table class="product-table">
+        <thead>
+            <tr>
+                <th>Название товара</th>
+                <th>Вес (кг)</th>
+                <th>Расстояние (км)</th>
+                <th>Стоимость доставки</th>
+            </tr>
+        </thead>
+        <tbody>
+           
+        </tbody>
+    </table>
+
+    <script>
+
+        const formEl = document.querySelector(".form")
+        const inputName = document.querySelector("#name")
+        const inputWeight = document.querySelector("#weight")
+        const inputDelivery = document.querySelector("#delivery")
+        const tableEl = document.querySelector(".product-table")
+        const textEl = document.querySelector(".text")
+        const tBody = document.querySelector("tbody")
+
+        const inputs = [inputWeight, inputDelivery];
+
+        formEl.addEventListener("submit", (event) => {
+            event.preventDefault();
+            textEl.textContent = ""
+
+            if (inputWeight.value.startsWith("-") || inputDelivery.value.startsWith("-")) {
+                const pEl = document.createElement("p")
+                pEl.textContent = "Введите корректное число"
+                pEl.style.color = "red"
+
+                textEl.append(pEl)
+                return
+            }
+
+            const string = document.createElement("tr")
+            tBody.append(string)
+
+
+
+            const data = [inputName.value, inputWeight.value, inputDelivery.value]
+
+            data.forEach((item, index) => {
+
+                const cell = document.createElement("td")
+                string.append(cell)
+
+                cell.textContent = item
+
+
+            })
+
+            const lastCell = document.createElement("td")
+            string.append(lastCell)
+            lastCell.textContent = (((+inputWeight.value * +inputDelivery.value) / 10).toFixed(2)) + " рублей"
+
+        })
+
+
+    </script>
+
+
+</body>
+
+</html>

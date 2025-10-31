@@ -1,0 +1,128 @@
+ .memo-certificates {
+     background-color: #FFFFFF;
+     border-radius: 20px;
+     padding: 20px;
+ }
+
+ .memo-certificates__list {
+     display: grid;
+     grid-template-columns: 535px 535px;
+     grid-template-rows: auto auto;
+     margin: 0 auto;
+     list-style-type: none;
+     gap: 6px 10px;
+ }
+
+ .memo-certificates__item {
+     list-style-type: none;
+ }
+
+ .memo-certificates__container {
+     background-color: #F6EEFB;
+     display: grid;
+     grid-template-columns: 44px auto;
+     gap: 4px 8px;
+     grid-template-rows: 22px 22px;
+     padding: 22px;
+     border-radius: 20px;
+ }
+
+ .memo-certificates__img {
+     width: 44px;
+     height: 44px;
+     grid-row: span 2;
+ }
+
+ .memo-certificates__title {
+     display: block;
+     margin: 0;
+     padding: 0;
+     font-size: 16px;
+     line-height: 20px;
+     font-weight: 400;
+ }
+
+ .memo-certificates__text {
+     font-size: 13px;
+     line-height: 16px;
+     font-weight: 400;
+     color: rgba(36, 36, 36, 0.5);
+     display: block;
+ }
+
+ .memo-certificates__item-xl {
+     grid-column: span 2;
+     height: 100%;
+     border-radius: 60px;
+     text-align: center;
+ }
+
+ .memo-certificates__item-xl-purple {
+   
+ }
+
+ .memo-certificates__block-link {
+     color: #FFFFFF;
+     text-decoration: none;
+     display: flex;
+     gap: 12px;
+     padding: 16px 30px;
+     align-items: center;
+     justify-content: center;
+     margin: 0 0 5px;
+     background-color: #9E5FC4;
+     width: 100%;
+     grid-column: span 2;
+     border-radius: 60px;
+ }
+
+ .memo-certificates__link {
+     font-size: 20px;
+     line-height: 24px;
+     font-weight: 700;
+ }
+
+ .memo-certificates__contacts-item--contacts {
+     grid-column: span 2;
+ }
+
+ .memo-certificates__container--contacts-wh {
+     background-color: #ffffff;
+ }
+
+ .memo-certificates__contacts-title {
+     display: block;
+     margin: 0;
+     padding: 0;
+     font-size: 16px;
+     line-height: 20px;
+     font-weight: 400;
+ }
+
+ .memo-certificates__contacts-text {
+     display: block;
+     color: rgba(36, 36, 36, 0.5);
+     font-size: 13px;
+     line-height: 16px;
+     font-weight: 400;
+ }
+
+ .memo-certificates-contacts__container {
+     text-align: center;
+ }
+
+ .memo-certificates__contacts-title {
+     margin: 0;
+     padding: 0;
+     font-size: 16px;
+     line-height: 20px;
+     font-weight: 400;
+     display: block;
+ }
+
+ .memo-certificates__contacts-text {
+     font-size: 13px;
+     line-height: 16px;
+     font-weight: 400;
+     color: rgba(36, 36, 36, 0.5);
+ }
